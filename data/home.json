@@ -1,0 +1,65 @@
+{
+	"data": {
+		"carousel": {
+			"title": "Aenean fringilla aliquam est, a porttitor arcu euismod et. Maecenas rutrum erat at arcu porta interdum. Cras convallis ligula ac risus imperdiet placerat.",
+			"list": [
+				{
+					"id": 1,
+					"src": "images/art/s1.jpg",
+					"intro": "Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit."
+				},
+				{
+					"id": 2,
+					"src": "images/art/s2.jpg",
+					"intro": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+				},
+				{
+					"id": 3,
+					"src": "images/art/s3.jpg",
+					"intro": "Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit."
+				},
+				{
+					"id": 4,
+					"src": "images/art/s4.jpg",
+					"intro": "Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+				}
+			]
+		},
+		"whatwedo": {
+			"title": "What We Do",
+			"content": "Vivamus sodales pharetra libero, a tincidunt nisi condimentum a. Quisque non sodales nislero. Integer a tellus eget arcu fringilla molestie quis vel eros. Praesent fermentum vulputate purusa ornare. Vivamus imperdiet, quam et adipiscing placerat, nibh odio scelerisque risus, vitaere accumsan mi justo et quam. Pellentesque quis felis quis tortor porttitor lobortis nec ac risus.",
+			"list": [
+				"Vivamus at magna non ipsum.",
+				"Etiam pharetra pretium eros.",
+				"Curabitur porttitor ipsum nec magna.",
+				"Maecenas cursus arcu a nulla tristique."
+			],
+			"intro": [
+				{
+					"img": "images/icon1.png",
+					"title": "Web Design",
+					"content": "Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero."
+				},
+				{
+					"img": "images/icon2.png",
+					"title": "Photography",
+					"content": "Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero."
+				},
+				{
+					"img": "images/icon3.png",
+					"title": "Motion Graphic",
+					"content": "Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero."
+				},
+				{
+					"img": "images/icon4.png",
+					"title": "Optimization",
+					"content": "Vivamus soder pharetra libero atincidunt, nisi condimentum Quisque non sodales nislero."
+				}
+			]
+		},
+		"latestworks": {
+			"title": "Latest Works",
+			"list": ["images/art/c1.jpg","images/art/c2.jpg","images/art/c3.jpg","images/art/c4.jpg","images/art/c5.jpg","images/art/c6.jpg"]
+		}
+	}
+}

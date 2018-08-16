@@ -1,0 +1,48 @@
+{
+	"errno":0,
+	"data":{ 
+	  "Latest Post": {
+			"title":"Latest Posts",
+			"data":[
+			{
+				"title":"22",
+				"month":"JUN",
+       			 "content":"Vivamus soder pharetra libero atincidunt"
+			},
+			{
+				"title":"14",
+				"month": "MAY",
+		  		"content":"Vivamus soder pharetra libero atincidunt"
+		 	},
+			{
+				"title":"11",
+				"month": "MAY",
+				"content":"Vivamus soder pharetra libero atincidunt"
+			},
+			{
+				"title":"08",
+				"month": "APR",
+				"content":"Vivamus soder pharetra libero atincidunt"
+			} 
+			]
+	  },
+	  "Flickr":{
+	  	"title":"Flickr",
+	  	"images":[
+	  		"images/art/f1.jpg",
+	  		"images/art/f2.jpg",
+	  		"images/art/f3.jpg",
+	  		"images/art/f4.jpg",
+	  		"images/art/f5.jpg",
+	  		"images/art/f6.jpg",
+	  		"images/art/f7.jpg",
+	  		"images/art/f8.jpg",
+	  		"images/art/f9.jpg"
+	  	]
+	  },
+	  "About":{
+	  	"part1":"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor.",
+	  	"part2":"Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
+	  }
+	 }
+}

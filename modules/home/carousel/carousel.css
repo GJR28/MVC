@@ -1,0 +1,82 @@
+#carousel {
+	padding-top: 30px;
+	
+}
+#carousel .container {
+	width: 980px;
+	background-color: rgba(255, 255, 255, .8);
+	margin: 0 auto;
+	padding-top: 40px;
+
+}
+#carousel .container .carousel {
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+	height: 400px;
+}
+#carousel .container .carousel li {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	left: 0;
+}
+#carousel .container .carousel li.active {
+	opacity: 1;
+}
+#carousel .container .carousel li img { 
+}
+#carousel .container .carousel li p {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	padding: 3px 4px;
+	background-color: rgba(255, 255, 255, .4);
+}
+#carousel .container .cirs {
+	height: 25px;
+	padding: 10px 0;
+	text-align: center;
+}
+#carousel .container .cirs li {
+	display: inline-block;
+	width: 12px;
+	vertical-align: middle;
+	margin-right: 10px;
+	height: 12px;
+	background: url("../../../images/navs.png") no-repeat 0 0 ;
+	cursor: pointer;
+
+}
+#carousel .container .cirs li.active {
+	background-position-y: -12px;
+}
+#carousel .container .cirs li:hover {
+	background-position-y: -12px;
+}
+#carousel .container .cirs #leftBtn {
+	width: 25px;
+	height: 25px;
+	background: url("../../../images/arrows.png") no-repeat 0 0 ;
+}
+#carousel .container .cirs #leftBtn:hover {
+	background-position-y: -25px;
+}
+#carousel .container .cirs #rightBtn {
+	width: 25px;
+	height: 25px;
+	background: url("../../../images/arrows.png") no-repeat -25px 0 ;
+}
+#carousel .container .cirs #rightBtn:hover {
+	background-position-y: -25px;
+}
+#carousel .container .title {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	line-height: 30px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #333;
+}
+

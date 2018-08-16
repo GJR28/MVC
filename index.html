@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MVC项目</title>
+</head>
+<body>
+	<div id="bg"></div>
+	<div id="header"></div>
+	<div id="home">
+		<div id="carousel"></div>
+		<div id="whatwedo"></div>
+		<div id="latesworks"></div>
+	</div>
+	<script type="text/javascript" src="sea.js"></script>
+	<script type="text/javascript" src="js/seajs-css.js"></script>
+	<script type="text/javascript" src="js/seajs-preload.js"></script>
+	<script type="text/javascript">
+		// 配置
+		seajs.config({
+			preload: ["js/MVC", "js/jquery-1.7.2"]
+		})
+		// 使用
+		seajs.use("modules/index", function() {
+			MVC.install();
+		})
+	</script>
+
+</body>
+</html>

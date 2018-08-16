@@ -1,0 +1,83 @@
+#header {
+	position: relative;
+	z-index: 22;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+#header .container {
+	width: 980px;
+	margin:  0 auto;
+}
+#header .container .top {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#header .container .top .logo {
+	height: 93px;
+	line-height: 93px;
+}
+#header .container .top .logo img {
+
+}
+#header .container .top ul {
+	padding-top: 20px;
+}
+#header .container .top ul li {
+
+}
+#header .container .nav {
+	background-color: rgba(255, 255, 255, .8);
+}
+#header .container .nav .item {
+	/*overflow: hidden;*/
+	position: relative;
+	padding: 15px 30px;
+	border-right: 1px solid #999;
+	transition: all 1s ease 0s;
+}
+#header .container .nav .item:hover {
+	background-color: white;
+}
+#header .container .nav .item:hover>a {
+	color: #ab4d63;
+}
+#header .container .nav .item>a {
+	text-decoration: none;
+	transition: all 1s ease 0s;
+	color: #333;
+	font-size: 12px;
+}
+#header .container .nav .item ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 140px;
+	background-color: white;
+	padding: 0 20px;
+	display: none;
+}
+#header .container .nav .item ul li {
+	line-height: 30px;
+	border-bottom: 1px solid black;
+}
+#header .container .nav .item ul li:last-child {
+	border: none;
+}
+#header .container .nav .item ul li a {
+	text-decoration: none;
+	transition: all 1s ease 0s;
+	color: #333;
+	font-size: 12px;
+}
+#header .container .nav .item ul li:hover a { 
+	color: #ab4d63;
+} 

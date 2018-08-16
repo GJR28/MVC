@@ -1,0 +1,55 @@
+#portfolio {
+	position: relative;
+	z-index: 20;
+}
+#portfolio .container {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: rgba(255, 255, 255, .7);
+	padding: 0 40px;
+}
+#portfolio .container .title {
+	padding-top: 40px;
+	color: #ab4d63;
+	font-size: 20px;
+}
+#portfolio .container .content {
+	padding: 10px 0;
+	font-size: 12px;
+	color: gray;
+	line-height: 1.5;
+}
+#portfolio .container .category {
+	padding: 10px 0;
+	border: 1px solid #ccc;
+	border-left: none; 
+	border-right: none;
+
+}
+#portfolio .container .category span {
+	display: inline-block;
+	padding-right: 20px;
+	font-size: 14px;
+	color: #555;
+	cursor: pointer;
+}
+#portfolio .container .category span.item {
+	color: #ab4d63;
+}
+#portfolio .container .category span.item:hover {
+	color: #4d87ab;
+}
+#portfolio .container .category span.active {
+	color: #4d87ab;
+}
+#portfolio .container #list {
+	padding: 10px 0;
+	position: relative;
+}
+#portfolio .container #list li {
+	width: 164px;
+}
+img {
+	width:  100%;
+}
